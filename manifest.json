@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "白杨的博客",
+  "version": "0.5",
+  "minimum_chrome_version": "80",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "permissions": ["webview"],
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}
